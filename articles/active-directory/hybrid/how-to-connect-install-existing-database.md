@@ -72,7 +72,11 @@ Important notes to take note of before you proceed:
    ![Directories](./media/how-to-connect-install-existing-database/db6.png)
  
  
-1. In the pop-up dialog, you can either (i) provide an Enterprise Admin credential and let Azure AD Connect create the AD DS account for you, or (ii) create the AD DS account yourself and provide its credential to Azure AD Connect. Once you have selected an option and provide the necessary credentials, click **OK** to close the pop-up dialog.
+1. In the pop-up dialog, you can either (i) provide an Enterprise Admin credential and let Azure AD Connect create the AD DS account for you, or (ii) create the AD DS account yourself and provide its credential to Azure AD Connect. Once you have selected an option and provide the necessary credentials, click **OK** to close the pop-up dialog. 
+
+###Add reminder### 
+As of build 1.4.###.# it is no longer supported to use an enterprise admin or a domain admin account as the AD DS Connector account. If you attempt to enter an account that is an enterprise admin or domain admin when specifying use existing account, you will receive an error.
+
    ![Welcome](./media/how-to-connect-install-existing-database/db7.png)
  
  
